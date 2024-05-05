@@ -18,7 +18,7 @@ jobs:
         - uses: stefanzweifel/git-auto-commit-action@v5
           with:
               commit_message: "[AUTO] from github action"
-              branch: add/workflows
+              branch: master
               commit_options: '--no-verify --signoff'
               repository: .
               skip_dirty_check: true    
@@ -26,5 +26,5 @@ jobs:
               skip_checkout: true
               disable_globbing: true
               create_branch: true
-              tagging_message: 'v1.0.0'
+
         
