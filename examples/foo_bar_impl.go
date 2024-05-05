@@ -3,18 +3,18 @@ package main
 type newFooBarImpl struct{}
 
 func NewFooBarImpl()FooBar {
-	return &implZZR{}
+	return &imploqO{}
 }
 	
-type implZZR newFooBarImpl
+type imploqO newFooBarImpl
 	
 
-func (i *implZZR) Foo() error {
+func (i *imploqO) Foo() error {
 	// dont forget to implement!
 	panic("not implemented!")
 }
 
-func (i *implZZR) Bar() error {
+func (i *imploqO) Bar() error {
 	// dont forget to implement!
 	panic("not implemented!")
 }
