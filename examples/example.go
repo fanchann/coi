@@ -2,6 +2,7 @@ package main
 
 import "net/http"
 
+// coi
 type FooBar interface {
 	Foo() error
 	Bar() error
