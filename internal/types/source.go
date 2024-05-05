@@ -12,7 +12,7 @@ func New{{.IName}}Impl(){{.IName}} {
 type impl{{.UniqID}} new{{.IName}}Impl
 	
 {{range .IMethod}}
-func (i *impl{{$.UniqID}}) {{.}}() {
+func (i *impl{{$.UniqID}}) {{.}} {
 	// dont forget to implement!
 	panic("not implemented!")
 }
