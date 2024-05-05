@@ -3,18 +3,18 @@ package main
 type newFooBarImpl struct{}
 
 func NewFooBarImpl()FooBar {
-	return &impleBw{}
+	return &impldQo{}
 }
 	
-type impleBw newFooBarImpl
+type impldQo newFooBarImpl
 	
 
-func (i *impleBw) Foo() error {
+func (i *impldQo) Foo() error {
 	// dont forget to implement!
 	panic("not implemented!")
 }
 
-func (i *impleBw) Bar() error {
+func (i *impldQo) Bar() error {
 	// dont forget to implement!
 	panic("not implemented!")
 }
