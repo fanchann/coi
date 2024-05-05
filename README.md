@@ -45,7 +45,7 @@ func (i *implzBu)  GetBar() (string,error) {
 
 ## install coi
 ```sh
-go install https://github.com/fanchann/coi@latest
+go install github.com/fanchann/coi@latest
 ```
 
 ## author
