@@ -26,4 +26,5 @@ jobs:
               skip_checkout: true
               disable_globbing: true
               create_branch: true
+              tagging_message: 'v1.0.0'
         
